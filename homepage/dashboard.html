@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/homepage.css">
 </head>
 
 <body>
-    <section class="sidebar pt-4">
+    <div class="sidebar position-absolute pt-4 min-vh-100">
         <div class="d-flex justify-content-center mb-5 bg-white" style="height: 40px;">
             <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
                 <path
@@ -41,41 +41,46 @@
             </svg>
             <font style="font-size: 20px; font-weight: 500;">sakuta</font>
         </div>
-        <ul style="margin-bottom: 100%;">
+        <ul>
             <li class="list-style mb-3">
-                <a href="" class="text-decoration-none text-white link-active">
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <a href="" class="text-decoration-none text-white d-flex">
+                    <i class="link-active">i</i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        style="margin-top: 4px;">
                         <path
                             d="M5 21C4.45 21 3.979 20.804 3.587 20.412C3.195 20.02 2.99934 19.5493 3 19V12.75H10V21H5ZM12 21V12.75H21V19C21 19.55 20.804 20.021 20.412 20.413C20.02 20.805 19.5493 21.0007 19 21H12ZM3 10.75V5C3 4.45 3.196 3.979 3.588 3.587C3.98 3.195 4.45067 2.99934 5 3H19C19.55 3 20.021 3.196 20.413 3.588C20.805 3.98 21.0007 4.45067 21 5V10.75H3Z"
                             fill="white" />
                     </svg>
-                    <span class="text-link">Dashboard</span>
+                    <span class="text-link ms-2">Dashboard</span>
                 </a>
             </li>
-            <li class="list-style mb-3">
-                <a href="" class="text-decoration-none text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <li class="list-style mb-1">
+                <a href="" class="text-decoration-none text-white d-flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        style="margin-top: 4px;">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M17.1798 4.41C17.1798 3.08 18.2598 2 19.5898 2C20.9198 2 21.9998 3.08 21.9998 4.41C21.9998 5.74 20.9198 6.82 19.5898 6.82C18.2598 6.82 17.1798 5.74 17.1798 4.41ZM13.3297 14.7593L16.2197 11.0303L16.1797 11.0503C16.3397 10.8303 16.3697 10.5503 16.2597 10.3003C16.1507 10.0503 15.9097 9.8803 15.6507 9.8603C15.3797 9.8303 15.1107 9.9503 14.9497 10.1703L12.5307 13.3003L9.75969 11.1203C9.58969 10.9903 9.38969 10.9393 9.18969 10.9603C8.99069 10.9903 8.81069 11.0993 8.68969 11.2593L5.73069 15.1103L5.66969 15.2003C5.49969 15.5193 5.57969 15.9293 5.87969 16.1503C6.01969 16.2403 6.16969 16.3003 6.33969 16.3003C6.57069 16.3103 6.78969 16.1893 6.92969 16.0003L9.43969 12.7693L12.2897 14.9103L12.3797 14.9693C12.6997 15.1393 13.0997 15.0603 13.3297 14.7593ZM15.4497 3.7803C15.4097 4.0303 15.3897 4.2803 15.3897 4.5303C15.3897 6.7803 17.2097 8.5993 19.4497 8.5993C19.6997 8.5993 19.9397 8.5703 20.1897 8.5303V16.5993C20.1897 19.9903 18.1897 22.0003 14.7897 22.0003H7.40069C3.99969 22.0003 1.99969 19.9903 1.99969 16.5993V9.2003C1.99969 5.8003 3.99969 3.7803 7.40069 3.7803H15.4497Z"
                             fill="white" />
                     </svg>
-                    <span class="text-link">Application Status</span>
+                    <span class="text-link ms-2">Application <p>Status</p></span>
                 </a>
             </li>
             <li class="list-style mb-3">
-                <a href="" class="text-decoration-none text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <a href="" class="text-decoration-none text-white d-flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        style="margin-top: 4px;">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M8.9 2H15.07C17.78 2 19.97 3.07 20 5.79V20.97C20 21.14 19.96 21.31 19.88 21.46C19.75 21.7 19.53 21.88 19.26 21.96C19 22.04 18.71 22 18.47 21.86L11.99 18.62L5.5 21.86C5.351 21.939 5.18 21.99 5.01 21.99C4.45 21.99 4 21.53 4 20.97V5.79C4 3.07 6.2 2 8.9 2ZM8.22 9.62H15.75C16.18 9.62 16.53 9.269 16.53 8.83C16.53 8.39 16.18 8.04 15.75 8.04H8.22C7.79 8.04 7.44 8.39 7.44 8.83C7.44 9.269 7.79 9.62 8.22 9.62Z"
                             fill="white" />
                     </svg>
-                    <span class="text-link">Bookmarks</span>
+                    <span class="text-link ms-2">Bookmarks</span>
                 </a>
             </li>
             <li class="list-style mb-3">
-                <a href="" class="text-decoration-none text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <a href="" class="text-decoration-none text-white d-flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        style="margin-top: 4px;">
                         <path
                             d="M5.30769 7.88571C5.30769 5.73969 7.06411 4 9.23077 4C11.3974 4 13.1538 5.73969 13.1538 7.88571C13.1538 10.0317 11.3974 11.7714 9.23077 11.7714C7.06411 11.7714 5.30769 10.0317 5.30769 7.88571Z"
                             fill="white" />
@@ -89,26 +94,54 @@
                             d="M15.9149 13.4916C15.5326 13.4916 15.2226 13.7986 15.2226 14.1773C15.2226 14.556 15.5326 14.863 15.9149 14.863H16.8086C16.8829 14.863 16.9573 14.8688 17.0306 14.8804C18.5197 15.1158 19.6154 16.388 19.6154 17.8816C19.6154 18.2942 19.2778 18.6286 18.8613 18.6286H16.9753C16.5929 18.6286 16.283 18.9356 16.283 19.3143C16.283 19.693 16.5929 20 16.9753 20H18.8613C20.0425 20 21 19.0516 21 17.8816C21 15.714 19.4098 13.8677 17.2488 13.5261C17.1032 13.5031 16.9559 13.4916 16.8086 13.4916H15.9149Z"
                             fill="white" />
                     </svg>
-                    <span class="text-link">About Us</span>
+                    <span class="text-link ms-2">About Us</span>
                 </a>
             </li>
         </ul>
-        <div class="" style="margin-top: 100%;">
-            <a href="" class="text-decoration-none text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <div class="btn-logout">
+            <a href="" class="text-decoration-none text-white d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    style="margin-top: 4px;">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M9.89535 11.23C9.45785 11.23 9.11192 11.57 9.11192 12C9.11192 12.42 9.45785 12.77 9.89535 12.77H16V17.55C16 20 13.9753 22 11.4724 22H6.51744C4.02471 22 2 20.01 2 17.56V6.45C2 3.99 4.03488 2 6.52762 2H11.4927C13.9753 2 16 3.99 16 6.44V11.23H9.89535ZM19.6302 8.5402L22.5502 11.4502C22.7002 11.6002 22.7802 11.7902 22.7802 12.0002C22.7802 12.2002 22.7002 12.4002 22.5502 12.5402L19.6302 15.4502C19.4802 15.6002 19.2802 15.6802 19.0902 15.6802C18.8902 15.6802 18.6902 15.6002 18.5402 15.4502C18.2402 15.1502 18.2402 14.6602 18.5402 14.3602L20.1402 12.7702H16.0002V11.2302H20.1402L18.5402 9.6402C18.2402 9.3402 18.2402 8.8502 18.5402 8.5502C18.8402 8.2402 19.3302 8.2402 19.6302 8.5402Z"
                         fill="white" />
                 </svg>
-                <span class="text-link">Logout</span>
+                <span class="text-link ms-3">Logout</span>
             </a>
         </div>
-    </section>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-left: 18%;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
     </script>
     <script src="../assets/js/homepage.js"></script>
+
 </body>
 
 </html>
