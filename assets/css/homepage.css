@@ -1,12 +1,67 @@
 * {
     margin: 0;
     padding: 0;
+    transition: 0.5 ease !important;
+}
+
+.font-color {
+    color: #636363;
+}
+
+.container-page {
+    margin-left: 18% !important;
+    transition: 0.5s ease;
+}
+
+.container-page-large {
+    margin-left: 6% !important;
+    transition: 0.5s ease;
 }
 
 .sidebar {
     width: 18%;
     height: 100%;
     background-color: #FF3636;
+    transition: 0.5s ease;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        width: 20%;
+        height: 100%;
+        background-color: #FF3636;
+        transition: 0.5s ease !important;
+    }
+
+    .sidebar-small {
+        width: 8% !important;
+        transition: 0.5s ease;
+    }
+
+    .sidebar-large {
+        width: 20%;
+        transition: 0.5s ease !important;
+    }
+
+    .container-page {
+        margin-left: 20% !important;
+        transition: 0.5s ease;
+    }
+
+    .container-page-large {
+        margin-left: 8% !important;
+        transition: 0.5s ease;
+    }
+}
+
+.sidebar-small {
+    width: 6%;
+    transition: 0.5s ease;
+}
+
+.sidebar-large {
+    width: 18%;
+    transition: 0.5s ease !important;
 }
 
 .list-style {
@@ -16,12 +71,37 @@
 .text-link {
     font-size: 20px;
     font-weight: 500;
+    transition: 0.5 ease;
+}
+
+.text-dissapear {
+    display: none !important;
+    transition: 0.5s ease;
+}
+
+.icon-sidebar {
+    margin: 1px;
+}
+
+.icon-sidebar-margin {
+    margin-bottom: 15px;
+}
+
+.bg-logo-sidebar {
+    padding: 1px;
+}
+
+.bg-logo-rounded {
+    width: 36px !important;
+    border-radius: 5px !important;
+    margin-left: 30%;
+    transition: 0.5s;
 }
 
 .btn-logout {
     position: fixed;
     bottom: 5%;
-    margin-left: 2%;
+    margin-left: 2.5%;
 }
 
 .link-active {
@@ -32,4 +112,24 @@
     background: #FFF;
     position: fixed;
     right: 99.5%;
+}
+
+.container-notif-active {
+    display: block;
+    width: 500px;
+    height: 350px;
+    border: 1px solid #F00;
+    position: sticky;
+    right: 2%;
+    top: 11%;
+}
+
+.container-notif {
+    display: none;
+    width: 500px;
+    height: 350px;
+    border: 1px solid #F00;
+    position: sticky;
+    right: 2%;
+    top: 11%;
 }

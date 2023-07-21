@@ -8,11 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/homepage.css">
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
 
-<body>
+<body class="body-background">
     <div class="sidebar position-absolute pt-4 min-vh-100">
-        <div class="d-flex justify-content-center mb-5 bg-white" style="height: 40px;">
+        <div class="d-flex justify-content-center mb-5 bg-white bg-logo-sidebar" style="height: 40px;">
             <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
                 <path
                     d="M27.9871 7.91102C26.8654 6.94796 25.5651 6.21527 24.1603 5.75476C22.7554 5.29425 21.2737 5.11495 19.7996 5.22709C18.3255 5.33924 16.8879 5.74063 15.5689 6.40835C14.2499 7.07608 13.0754 7.99706 12.1123 9.1187C11.1493 10.2404 10.4166 11.5407 9.95607 12.9455C9.49557 14.3503 9.31627 15.8321 9.42841 17.3062C9.54055 18.7803 9.94195 20.2179 10.6097 21.5369C11.2774 22.8558 12.1984 24.0304 13.32 24.9934L20.6535 16.4522L27.9871 7.91102Z"
@@ -39,15 +40,14 @@
                     </linearGradient>
                 </defs>
             </svg>
-            <font style="font-size: 20px; font-weight: 500;">sakuta</font>
+            <span style="font-size: 20px; font-weight: 500;" class="text-link">sakuta</span>
         </div>
         <ul>
             <li class="list-style mb-3">
-
                 <a href="" class="text-decoration-none text-white d-flex">
                     <i class="link-active">i</i>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        style="margin-top: 4px;">
+                        style="margin-top: 4px;" class="icon-sidebar">
                         <path
                             d="M5 21C4.45 21 3.979 20.804 3.587 20.412C3.195 20.02 2.99934 19.5493 3 19V12.75H10V21H5ZM12 21V12.75H21V19C21 19.55 20.804 20.021 20.412 20.413C20.02 20.805 19.5493 21.0007 19 21H12ZM3 10.75V5C3 4.45 3.196 3.979 3.588 3.587C3.98 3.195 4.45067 2.99934 5 3H19C19.55 3 20.021 3.196 20.413 3.588C20.805 3.98 21.0007 4.45067 21 5V10.75H3Z"
                             fill="white" />
@@ -55,10 +55,10 @@
                     <span class="text-link ms-2">Dashboard</span>
                 </a>
             </li>
-            <li class="list-style mb-1">
+            <li class="list-style mb-3">
                 <a href="" class="text-decoration-none text-white d-flex">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        style="margin-top: 4px;">
+                        style="margin-top: 4px;" class="icon-sidebar">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M17.1798 4.41C17.1798 3.08 18.2598 2 19.5898 2C20.9198 2 21.9998 3.08 21.9998 4.41C21.9998 5.74 20.9198 6.82 19.5898 6.82C18.2598 6.82 17.1798 5.74 17.1798 4.41ZM13.3297 14.7593L16.2197 11.0303L16.1797 11.0503C16.3397 10.8303 16.3697 10.5503 16.2597 10.3003C16.1507 10.0503 15.9097 9.8803 15.6507 9.8603C15.3797 9.8303 15.1107 9.9503 14.9497 10.1703L12.5307 13.3003L9.75969 11.1203C9.58969 10.9903 9.38969 10.9393 9.18969 10.9603C8.99069 10.9903 8.81069 11.0993 8.68969 11.2593L5.73069 15.1103L5.66969 15.2003C5.49969 15.5193 5.57969 15.9293 5.87969 16.1503C6.01969 16.2403 6.16969 16.3003 6.33969 16.3003C6.57069 16.3103 6.78969 16.1893 6.92969 16.0003L9.43969 12.7693L12.2897 14.9103L12.3797 14.9693C12.6997 15.1393 13.0997 15.0603 13.3297 14.7593ZM15.4497 3.7803C15.4097 4.0303 15.3897 4.2803 15.3897 4.5303C15.3897 6.7803 17.2097 8.5993 19.4497 8.5993C19.6997 8.5993 19.9397 8.5703 20.1897 8.5303V16.5993C20.1897 19.9903 18.1897 22.0003 14.7897 22.0003H7.40069C3.99969 22.0003 1.99969 19.9903 1.99969 16.5993V9.2003C1.99969 5.8003 3.99969 3.7803 7.40069 3.7803H15.4497Z"
                             fill="white" />
@@ -69,7 +69,7 @@
             <li class="list-style mb-3">
                 <a href="" class="text-decoration-none text-white d-flex">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        style="margin-top: 4px;">
+                        style="margin-top: 4px;" class="icon-sidebar">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M8.9 2H15.07C17.78 2 19.97 3.07 20 5.79V20.97C20 21.14 19.96 21.31 19.88 21.46C19.75 21.7 19.53 21.88 19.26 21.96C19 22.04 18.71 22 18.47 21.86L11.99 18.62L5.5 21.86C5.351 21.939 5.18 21.99 5.01 21.99C4.45 21.99 4 21.53 4 20.97V5.79C4 3.07 6.2 2 8.9 2ZM8.22 9.62H15.75C16.18 9.62 16.53 9.269 16.53 8.83C16.53 8.39 16.18 8.04 15.75 8.04H8.22C7.79 8.04 7.44 8.39 7.44 8.83C7.44 9.269 7.79 9.62 8.22 9.62Z"
                             fill="white" />
@@ -80,7 +80,7 @@
             <li class="list-style mb-3">
                 <a href="" class="text-decoration-none text-white d-flex">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        style="margin-top: 4px;">
+                        style="margin-top: 4px;" class="icon-sidebar">
                         <path
                             d="M5.30769 7.88571C5.30769 5.73969 7.06411 4 9.23077 4C11.3974 4 13.1538 5.73969 13.1538 7.88571C13.1538 10.0317 11.3974 11.7714 9.23077 11.7714C7.06411 11.7714 5.30769 10.0317 5.30769 7.88571Z"
                             fill="white" />
@@ -111,36 +111,129 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-left: 18%;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
+    <div class="container-page">
+        <nav class="navbar navbar-expand-lg body-background shadow-sm pt-4">
+            <div class="container">
+                <button class="btn p-0 me-2 hamburger-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                        <path d="M34.1666 11.9584H6.83331M34.1666 20.5H6.83331M34.1666 29.0417H6.83331" stroke="#FF0000"
+                            stroke-width="2.5625" stroke-linecap="round" />
+                    </svg>
+                </button>
+                <button class="btn me-2 p-0">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12.5" cy="12.5" r="12.5" fill="white" />
+                        <path
+                            d="M18.6699 11.6186H8.82451L13.1258 7.31729C13.4695 6.97354 13.4695 6.40944 13.1258 6.06569C13.0442 5.98398 12.9474 5.91915 12.8408 5.87492C12.7341 5.83069 12.6198 5.80792 12.5044 5.80792C12.389 5.80792 12.2747 5.83069 12.168 5.87492C12.0614 5.91915 11.9645 5.98398 11.883 6.06569L6.07451 11.8742C5.9928 11.9557 5.92797 12.0526 5.88374 12.1592C5.83951 12.2658 5.81674 12.3801 5.81674 12.4956C5.81674 12.611 5.83951 12.7253 5.88374 12.8319C5.92797 12.9386 5.9928 13.0354 6.07451 13.117L11.883 18.9255C11.9646 19.0071 12.0615 19.0718 12.1681 19.116C12.2747 19.1601 12.389 19.1828 12.5044 19.1828C12.6198 19.1828 12.7341 19.1601 12.8407 19.116C12.9473 19.0718 13.0442 19.0071 13.1258 18.9255C13.2074 18.8439 13.2721 18.747 13.3163 18.6404C13.3604 18.5337 13.3832 18.4195 13.3832 18.3041C13.3832 18.1887 13.3604 18.0744 13.3163 17.9678C13.2721 17.8612 13.2074 17.7643 13.1258 17.6827L8.82451 13.3814H18.6699C19.1546 13.3814 19.5513 12.9848 19.5513 12.5C19.5513 12.0152 19.1546 11.6186 18.6699 11.6186Z"
+                            fill="#FF0000" />
+                    </svg>
+                </button>
+                <button class="btn p-0">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12.5" cy="12.5" r="12.5" transform="rotate(-180 12.5 12.5)" fill="white" />
+                        <path
+                            d="M6.33014 13.3814L16.1755 13.3814L11.8742 17.6827C11.5305 18.0265 11.5305 18.5906 11.8742 18.9343C11.9558 19.016 12.0526 19.0809 12.1592 19.1251C12.2659 19.1693 12.3802 19.1921 12.4956 19.1921C12.611 19.1921 12.7253 19.1693 12.832 19.1251C12.9386 19.0809 13.0355 19.016 13.117 18.9343L18.9255 13.1258C19.0072 13.0443 19.072 12.9474 19.1163 12.8408C19.1605 12.7342 19.1833 12.6199 19.1833 12.5044C19.1833 12.389 19.1605 12.2747 19.1163 12.1681C19.072 12.0614 19.0072 11.9646 18.9255 11.883L13.117 6.07454C13.0354 5.99294 12.9385 5.92821 12.8319 5.88404C12.7253 5.83988 12.611 5.81715 12.4956 5.81715C12.3802 5.81715 12.2659 5.83988 12.1593 5.88404C12.0527 5.92821 11.9558 5.99294 11.8742 6.07454C11.7926 6.15614 11.7279 6.25302 11.6837 6.35964C11.6396 6.46626 11.6168 6.58053 11.6168 6.69593C11.6168 6.81134 11.6396 6.92561 11.6837 7.03223C11.7279 7.13885 11.7926 7.23573 11.8742 7.31733L16.1755 11.6186L6.33014 11.6186C5.84537 11.6186 5.44873 12.0152 5.44873 12.5C5.44873 12.9848 5.84537 13.3814 6.33014 13.3814Z"
+                            fill="#FF0000" />
+                    </svg>
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item me-4 mt-1">
+                            <button class="btn btn-light rounded-4 p-1"><img src="../assets/image/homepage/ukflag.png"
+                                    alt="">
+                                <span style="color: #FF3939; font-size: 14px; font-weight: 500;">English (en)</span>
+                            </button>
+                        </li>
+                        <li class="nav-item me-3 mt-1">
+                            <button class="btn btn-light rounded-5 p-0 mt-1 btn-notif" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M18.7071 8.79633C18.7071 10.0523 19.039 10.7925 19.7695 11.6456C20.3231 12.2741 20.5 13.0808 20.5 13.956C20.5 14.8302 20.2128 15.6601 19.6373 16.3339C18.884 17.1417 17.8215 17.6573 16.7372 17.747C15.1659 17.8809 13.5937 17.9937 12.0005 17.9937C10.4063 17.9937 8.83505 17.9263 7.26375 17.747C6.17846 17.6573 5.11602 17.1417 4.36367 16.3339C3.78822 15.6601 3.5 14.8302 3.5 13.956C3.5 13.0808 3.6779 12.2741 4.23049 11.6456C4.98384 10.7925 5.29392 10.0523 5.29392 8.79633V8.3703C5.29392 6.68834 5.71333 5.58852 6.577 4.51186C7.86106 2.9417 9.91935 2 11.9558 2H12.0452C14.1254 2 16.2502 2.98702 17.5125 4.62466C18.3314 5.67916 18.7071 6.73265 18.7071 8.3703V8.79633ZM9.07367 20.0608C9.07367 19.5573 9.53582 19.3266 9.96318 19.2279C10.4631 19.1222 13.5093 19.1222 14.0092 19.2279C14.4366 19.3266 14.8987 19.5573 14.8987 20.0608C14.8738 20.5402 14.5926 20.9653 14.204 21.2352C13.7001 21.628 13.1088 21.8767 12.4906 21.9664C12.1487 22.0107 11.8128 22.0117 11.4828 21.9664C10.8636 21.8767 10.2723 21.628 9.76938 21.2342C9.37978 20.9653 9.09852 20.5402 9.07367 20.0608Z"
+                                        fill="#FF3636" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <span style="" class="font-color me-3">Lukman Nurrahman</span>
+                            <img src="../assets/image/homepage/fotoprofile.png" alt="" class="me-2">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-notif bg-white rounded-4 position-absolute">
+            <div class="container">
+                <a href="" class="text-decoration-none">
+                    <div class="mx-auto" style="border-bottom: 1px solid #979797;">
+                        <div class="d-flex mt-3 ms-2">
+                            <img src="../assets/image/homepage/hilal.png" alt="" width="39" height="39"
+                                class="rounded-5" style="object-fit: cover;">
+                            <span style="font-size: 14px; font-weight: 600;" class="font-color ms-2">Rekayasa
+                                Perangkat Lunak
+                                <p style="font-size: 12px; font-weight: 500;">
+                                    HILAL HUDAN NUHA,S.T.,M.T.,Ph.D.
+                                </p>
+                            </span>
+                        </div>
+                        <p style="font-size: 16px; font-weight: 500;" class="font-color">Your application is being
+                            reviewed</p>
+                        <div class="d-flex justify-content-end mb-3">
+                            <span style="font-size: 14px; font-weight: 500; color: #FF8989;">Last Wednesday at
+                                11:15 AM</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="text-decoration-none">
+                    <div class="mx-auto" style="border-bottom: 1px solid #979797;">
+                        <div class="d-flex mt-3 ms-2">
+                            <img src="../assets/image/homepage/farah.png" alt="" width="39" height="39"
+                                class="rounded-5" style="object-fit: cover;">
+                            <span style="font-size: 14px; font-weight: 600;" class="font-color ms-2">
+                                Data Structure
+                                <p style="font-size: 12px; font-weight: 500;">
+                                    Dr. FARAH AFIANTI, S.T.,M.T.
+                                </p>
+                            </span>
+                        </div>
+                        <p style="font-size: 16px; font-weight: 500;" class="font-color">Your application is being
+                            rejected</p>
+                        <div class="d-flex justify-content-end mb-3">
+                            <span style="font-size: 14px; font-weight: 500; color: #FF8989;">Last Wednesday at
+                                11:15 AM</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="mt-3">
+                    <a href="" class="text-decoration-none">
+                        <span style="font-size: 14px; font-weight: 500; color: #FF8989;">View
+                            all
+                            notification</span>
+                    </a>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
     </script>
     <script src="../assets/js/homepage.js"></script>
+
+    <!-- <script>
+        const sidebar = document.querySelector(".sidebar");
+        const mainContent = document.querySelector(".container-page");
+        document.querySelector(".hamburger-menu").onclick = function () {
+            sidebar.classList.toggle("sidebar_small");
+            mainContent.classList.toggle("main-content");
+        };
+    </script> -->
 
 </body>
 
