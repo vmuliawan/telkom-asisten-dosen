@@ -32,6 +32,16 @@
     background: #F00;
 }
 
-.btn-status:active {
+/* .btn-status:active {
     background: #F00;
+} */
+
+.btn-status-active {
+    width: 47%;
+    height: 65px;
+    border-radius: 15px;
+    font-weight: 600;
+    border-color: #F00;
+    color: white;
+    background: #F00 !important;
 }
