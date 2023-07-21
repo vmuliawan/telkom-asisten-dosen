@@ -122,6 +122,7 @@
     position: sticky;
     right: 2%;
     top: 11%;
+    z-index: 1;
 }
 
 .container-notif {
@@ -132,4 +133,5 @@
     position: sticky;
     right: 2%;
     top: 11%;
+    z-index: 1;
 }
