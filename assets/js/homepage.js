@@ -4,6 +4,7 @@ const linkSidebar = document.querySelectorAll(".text-link");
 const iconSidebar = document.querySelectorAll(".icon-sidebar");
 const backgroundLogoSidebar = document.querySelectorAll(".bg-logo-sidebar");
 const modalNotif = document.querySelector(".container-notif");
+const vacancies = document.querySelectorAll(".vacancies");
 document.querySelector(".hamburger-menu").onclick = function () {
   sidebar.classList.toggle("sidebar-small");
   mainContent.classList.toggle("container-page-large");
@@ -16,6 +17,9 @@ document.querySelector(".hamburger-menu").onclick = function () {
   });
   backgroundLogoSidebar.forEach((sl) => {
     sl.classList.toggle("bg-logo-rounded");
+  });
+  vacancies.forEach((vl) => {
+    vl.classList.toggle("col-5");
   });
 };
 

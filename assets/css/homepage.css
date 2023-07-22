@@ -9,7 +9,7 @@
 }
 
 .container-page {
-    margin-left: 18% !important;
+    margin-left: 16% !important;
     transition: 0.5s ease;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .sidebar {
-    width: 18%;
+    width: 16%;
     height: 100%;
     background-color: #FF3636;
     transition: 0.5s ease;
@@ -134,4 +134,14 @@
     right: 2%;
     top: 11%;
     z-index: 1;
+}
+
+.jumbotron {}
+
+.form-search {
+    margin-left: 20px;
+}
+
+.form-search:focus {
+    outline: none !important;
 }
