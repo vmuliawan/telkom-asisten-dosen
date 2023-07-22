@@ -145,3 +145,11 @@
 .form-search:focus {
     outline: none !important;
 }
+
+.btn-seemore {
+    margin-left: 92% !important;
+}
+
+.more-vacancies-resp {
+    margin-left: 78% !important;
+}
