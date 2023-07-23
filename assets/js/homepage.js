@@ -6,12 +6,10 @@ const backgroundLogoSidebar = document.querySelectorAll(".bg-logo-sidebar");
 const modalNotif = document.querySelector(".container-notif");
 const vacancies = document.querySelectorAll(".col-vacancies");
 const btnSeemore = document.querySelector(".btn-seemore");
-const vacancies2 = document.querySelector("col-vacancies-2");
 
 document.querySelector(".hamburger-menu").onclick = function () {
   sidebar.classList.toggle("sidebar-small");
   mainContent.classList.toggle("container-page-large");
-  btnSeemore.classList.toggle("more-vacancies-resp");
 
   linkSidebar.forEach((el) => {
     el.classList.toggle("text-dissapear");
@@ -25,7 +23,7 @@ document.querySelector(".hamburger-menu").onclick = function () {
   vacancies.forEach((vl) => {
     vl.classList.toggle("col-5");
   });
-  vacancies2.classList.toggle("col-vacancies-toggle");
+  btnSeemore.classList.toggle("more-vacancies-resp");
 };
 
 document.querySelector(".btn-notif").addEventListener("click", function () {
